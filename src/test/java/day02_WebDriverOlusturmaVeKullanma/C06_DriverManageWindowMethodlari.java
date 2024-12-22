@@ -42,7 +42,7 @@ public class C06_DriverManageWindowMethodlari {
 
         // browser'in baslangic pixel'ini 300,300
         // ve boyutunu 500X500 yapin
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.manage().window().setPosition(new Point(300,300));
         driver.manage().window().setSize(new Dimension(500,500));
 
